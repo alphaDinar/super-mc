@@ -36,16 +36,17 @@
 
     <style>
       form {
-        display: flex;
+        display: grid;
         gap: 1rem;
-        display: none;
+        grid-template-columns: 8.5fr 1.5fr;
+        /* display: none; */
       }
 
       form div {
         gap: 1rem;
         border-radius: 5px;
         padding: 12px 15px;
-        flex: 1;
+        /* flex: 1; */
       }
 
       form div,
@@ -54,16 +55,15 @@
         display: flex;
         align-items: center;
       }
-
-      /* form div input {
+      
+      form div input {
+        max-width: 100px;
         flex: 1;
-      } */
+      }
 
       form button {
         background: orange;
         color: white;
-        /* flex: 1; */
-        /* width: 50px; */
         padding: 8px;
         border-radius: 3px;
       }
