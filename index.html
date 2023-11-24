@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/base.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="page">
+    <section class="headBox">
+      <strong>
+        Super MC Food Ordering App Proposal
+      </strong>
+      <img src="logo.png" alt="">
+    </section>
+
+    <style>
+      .headBox {
+        width: 100%;
+        min-height: 50vh;
+        background: orange;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .headBox strong {
+        font-size: 2rem;
+      }
+
+      .headBox img {
+        width: 100px;
+      }
+    </style>
+
+    <section class="introBox block">
+      <article>
+        <h3>Content</h3>
+        <p>
+          <a href="#introduction"> <i class="material-symbols-outlined">task_alt</i> Introduction</a>
+          <a href="#mainParts"> <i class="material-symbols-outlined">task_alt</i> Main Parts</a>
+          <a href="#api"> <i class="material-symbols-outlined">task_alt</i> API's</a>
+          <a href="#design"> <i class="material-symbols-outlined">task_alt</i> Design & Development</a>
+          <a href="#budget"> <i class="material-symbols-outlined">task_alt</i> Budget</a>
+        </p>
+      </article>
+    </section>
+
+    <style>
+      .block {
+        width: 80%;
+        padding: 5vh 10%;
+      }
+
+      .introBox {
+        display: flex;
+        align-items: center;
+        min-height: 40vh;
+      }
+
+      .introBox article {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .introBox p {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .introBox p a {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        color: black;
+      }
+    </style>
+
+    <article class="intro block" id="introduction">
+      <strong>Introduction</strong>
+      <p>
+        We propose the development of a comprehensive Food Ordering App
+        that aims to revolutionize the way people order and enjoy food from a
+        variety of restaurants. This app will provide a user-friendly interface
+        for customers to browse menus, place orders, and track deliveries
+        seamlessly. It will also offer a robust platform for restaurants to
+        manage their menus, process orders, and improve their online
+        presence.
+      </p>
+    </article>
+
+    <section class="featureBox block" id="mainParts">
+      <header>
+        <a>
+          <i class="material-symbols-outlined">person</i>
+          <span>Customer App</span>
+        </a>
+        <a>
+          <i class="material-symbols-outlined">motorcycle</i>
+          <span>Rider App</span>
+        </a>
+        <a>
+          <i class="material-symbols-outlined">local_dining</i>
+          <span>Restaurant App</span>
+        </a>
+      </header>
+    </section>
+
+    <style>
+      .featureBox header {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .featureBox header a {
+        background: dodgerblue;
+        min-width: 180px;
+        padding: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    </style>
+
+    <section class="partBox block">
+      <div>
+        <h3>Customer & Rider App</h3>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            User Registration and Authentication:
+          </strong>
+          <p>
+            <span> 1. Allow users to create accounts using email, phone, or social media login.</span>
+            <span> 2. Implement a secure authentication process for user data protection.</span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Restaurant Search and Selection:
+          </strong>
+          <p>
+            <span> 1. Enable users to search for restaurants based on location, cuisine, ratings, and more.</span>
+            <span> 2. Provide restaurant profiles with menus, ratings, reviews, and images.</span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Menu Browsing:
+          </strong>
+          <p>
+            <span> 1. Display restaurant menus with detailed item descriptions, prices,
+              and images.
+            </span>
+            <span> 2. Implement filters and sorting options to make menu navigation
+              easy</span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Order Placement:
+          </strong>
+          <p>
+            <span> 1. Create a seamless order placement process with the ability to add
+              multiple items to the cart.
+            </span>
+            <span> 2. Allow users to customize their orders, e.g., specify dietary
+              preferences and add special instructions.</span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Payment Integration:
+          </strong>
+          <p>
+            <span> 1. Integrate various payment options such as credit/debit cards,
+              mobile wallets, and online payment gateways.
+            </span>
+            <span> 2. Ensure secure and efficient payment processing.
+            </span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Order Tracking:
+
+          </strong>
+          <p>
+            <span> 1. Provide real-time order tracking with status updates and estimated
+              delivery times.
+
+            </span>
+            <span> 2. Send push notifications and email updates to keep users informed.
+            </span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Review and Rating System:
+          </strong>
+          <p>
+            <span> 1. Allow users to leave reviews and ratings for restaurants and
+              individual menu items.
+
+            </span>
+            <span> 2. Encourage user-generated content for a vibrant community.
+            </span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Order History:
+          </strong>
+          <p>
+            <span> 1. Maintain a history of past orders for easy reordering.
+            </span>
+            <span> 2. Store receipts and order details for reference.
+            </span>
+          </p>
+        </article>
+      </div>
+
+      <div>
+        <h3>Restaurant App</h3>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Restaurant Dashboard:
+          </strong>
+          <p>
+            <span> 1. Provide a dedicated dashboard for restaurant owners to manage
+              their profiles and menus.</span>
+            <span> 2. Enable them to update menu items, prices, and availability.</span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Order Management:
+          </strong>
+          <p>
+            <span> 1. Streamline order processing with real-time notifications and order
+              queue management.
+            </span>
+            <span> 2. Allow restaurants to confirm, prepare, and mark orders as
+              delivered.</span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Inventory and Stock Management:
+          </strong>
+          <p>
+            <span> 1. Support restaurant owners in managing their inventory and stock
+              levels.
+            </span>
+            <span> 2. Alert restaurants when items are running low.</span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Analytics and Reporting:
+          </strong>
+          <p>
+            <span> 1. Offer data analytics and reporting tools to help restaurants make
+              data-driven decisions.
+            </span>
+            <span> 2. Provide insights into sales, customer feedback, and popular items.</span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Payment Integration:
+          </strong>
+          <p>
+            <span> 1. Integrate various payment options such as credit/debit cards,
+              mobile wallets, and online payment gateways.
+            </span>
+            <span> 2. Ensure secure and efficient payment processing.
+            </span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Order Tracking:
+
+          </strong>
+          <p>
+            <span> 1. Provide real-time order tracking with status updates and estimated
+              delivery times.
+
+            </span>
+            <span> 2. Send push notifications and email updates to keep users informed.
+            </span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Review and Rating System:
+          </strong>
+          <p>
+            <span> 1. Allow users to leave reviews and ratings for restaurants and
+              individual menu items.
+
+            </span>
+            <span> 2. Encourage user-generated content for a vibrant community.
+            </span>
+          </p>
+        </article>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Order History:
+          </strong>
+          <p>
+            <span> 1. Maintain a history of past orders for easy reordering.
+            </span>
+            <span> 2. Store receipts and order details for reference.
+            </span>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <style>
+      .partBox,
+      .partBox div,
+      .partBox article,
+      .partBox article p {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .partBox {
+        gap: 3rem;
+      }
+
+      .partBox div {
+        gap: 1rem;
+      }
+
+      .partBox article {
+        gap: 0.4rem;
+      }
+
+      .partBox article strong {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .partBox article p {
+        gap: 0.3rem;
+      }
+    </style>
+
+
+    <section class="featureBox block" id="api">
+      <header>
+        <a>
+          <i class="material-symbols-outlined">location_pin</i>
+          <span>Location & Maps API</span>
+        </a>
+        <a>
+          <i class="material-symbols-outlined">payments</i>
+          <span>Payment Gateway API</span>
+        </a>
+        <a>
+          <i class="material-symbols-outlined">notifications</i>
+          <span>Push Notification API</span>
+        </a>
+        <a>
+          <i class="material-symbols-outlined">code</i>
+          <span>OTP API</span>
+        </a>
+      </header>
+    </section>
+
+    <section class="partBox block">
+      <div>
+        <h3>Location & Maps API</h3>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Google Maps API:
+          </strong>
+          <p>
+            <span> 1. To enable location-based services for finding nearby restaurants
+              and delivery tracking.
+            </span>
+          </p>
+        </article>
+      </div>
+      <div>
+        <h3>Payment Gateway API:</h3>
+
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Paystack API:
+          </strong>
+          <p>
+            <span> 1. For secure and efficient payment processing, supporting multiple
+              payment methods.
+            </span>
+          </p>
+        </article>
+      </div>
+      <div>
+        <h3>OTP (One time SMS Password) API:</h3>
+        <article>
+          <strong>
+            <i class="material-symbols-outlined">east</i>
+            Google OTP API:
+          </strong>
+          <p>
+            <span> 1. For user registration, login, and secure account management.
+
+            </span>
+          </p>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="showBox block">
+      <a>
+        <i class="material-symbols-outlined">tv</i>
+      </a>
+      <img src="shot1.JPG">
+      <img src="shot2.JPG">
+    </section>
+
+    <style>
+      .showBox {
+        position: relative;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .showBox a {
+        left: 10%;
+        width: 200px;
+        background: rgba(0, 0, 0, 0.333);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+      }
+
+      .showBox a i {
+        font-size: 5rem;
+        color: wheat;
+      }
+
+      .showBox img {
+        width: 200px;
+      }
+
+      @media all and (max-width:850px) {
+        .showBox {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .showBox img {
+          width: 100%;
+        }
+      }
+    </style>
+
+
+    <section class="budgetBox block" id="budget">
+      <div>
+        <small>Location and Maps API</small>
+        <span>GHC 1,500 </span>
+        <small>monthly</small>
+      </div>
+      <div>
+        <small>OTP API</small>
+        <span>GHC 120 </span>
+        <small>100 users</small>
+      </div>
+      <div>
+        <small>Design & Development</small>
+        <span>GHC 5,000 </span>
+        <small>1 time</small>
+      </div>
+    </section>
+
+    <style>
+      .budgetBox {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .budgetBox div {
+        background: salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px;
+        color: white;
+        border: 1px solid white;
+      }
+
+      .budgetBox div>*:nth-child(1) {
+        width: max-content;
+        font-size: 1rem;
+      }
+
+      .budgetBox span {
+        font-size: 1.5rem;
+        width: max-content;
+      }
+    </style>
+
+
+    <small class="block duration">
+      <i class="material-symbols-outlined">schedule</i>
+      This Project would take a duration of 2 months to complete.
+    </small>
+
+    <style>
+      .duration {
+        display: flex;
+        flex-direction: column;
+        background: black;
+        color: white;
+      }
+    </style>
+
+  </section>
+</body>
+
+</html>

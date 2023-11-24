@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'DessauProDrei';
+  src: url('DessauProDrei.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body::-webkit-scrollbar ,div::-webkit-scrollbar,
+section::-webkit-scrollbar {
+  display: none;
+}
